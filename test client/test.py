@@ -290,4 +290,7 @@ def test():
 
 os.system ('clear')
 print ('Forum test script')
-test()
+try:
+	test()
+except:
+	print ('Error.')
